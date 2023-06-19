@@ -25,6 +25,7 @@ class BooksCrawlSpider(CrawlSpider):
             html = html.replace(text, '')
 
         # Now, `html` contains the total response text without the elements matching the given xpath expressions
+        #this is hemant comment
         
         email_found = False
         
